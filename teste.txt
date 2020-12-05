@@ -1,2 +1,1 @@
-kkkkkkkk
-1
+https://engineering.facile.it/blog/eng/write-filesystem-fuse/
