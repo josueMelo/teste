@@ -1,0 +1,7 @@
+sudo apt-get install gcc fuse libfuse-dev make cmake
+cmake -DCMAKE_BUILD_TYPE=Debug .
+make -j
+mkdir /tmp/example //criando diretorio
+sudo ./bin/fuse-example -d -s -f /tmp/example
+$ mount | grep fuse-example
+fuse-example on /tmp/example type fuse.fuse-example (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000) // erro :(
